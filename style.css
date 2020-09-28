@@ -844,6 +844,9 @@ top: 10vw;
     margin-left:35vw;
     margin-top: 8vw;  
   }
+  .about-button{
+  display: none;  
+}
 
   .button-position{
     display: flex;
