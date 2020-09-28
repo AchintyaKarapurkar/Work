@@ -302,7 +302,7 @@ background-color: hsla(0, 0%, 94%, 0.5);
   margin-top: 1em;
   background-color: white;
   position: relative;
-  background-image: url(/coffee_bag.png);
+  background-image: url(coffee_bag.png);
   background-position: center;
   background-size: 40vh 40vh;
   background-repeat: no-repeat;
