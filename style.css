@@ -132,7 +132,7 @@ font-size: 18px;
 
 
 
-@media only screen and (min-width:400px){
+@media only screen and (min-width:400px and max-width:600px){
   .hero-box{
     width: 100vw;
   max-width: 100%;
@@ -370,6 +370,17 @@ top: 10vw;
   margin-top: 8vw;  
 }
 
+.about-button{
+  margin-top: 1em;
+  background-color: white; 
+  color:#6d3e0b ;
+z-index: 2;
+text-decoration: none;
+padding: 0.8em;
+font-size: 1.2em;
+border-radius: 0.2em;
+top: 10vw; 
+}
 .footer-box{
   width: 100vw;
   max-width:100%;
@@ -864,4 +875,5 @@ top: 10vw;
   object-fit: cover;
   
 }
+
 }
