@@ -1,119 +1,166 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Craft Espresso</title>
-        <link rel="stylesheet" href="cestyle.css">
-    </head>
+<html lang="en">
 
-    <body>
-        <div class="container">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Craft Espresso</title>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 
-        <div class="logo-ellipse">
-            <img src="craft espresso-01.svg" alt="" class="logo">
-        </div>
-        <!--nav-->  <!--#b66f36 0%, #a36b2e 100%-->
-        <div class="navbar">
-            <div class="nav-option">
-                <p class="nav-font">HOME</p>
-                <p class="nav-font">LOCATIONS</p>
-                <p class="nav-font">SHOP</p>
-                <p class="nav-font">ABOUT</p>
-                <p class="nav-font" style="width: 538px;"></p>
-                <p class="nav-font">CONTACT US</p>
-                <p class="nav-font">CART</p>
-                <p class="nav-font">LOGIN</p>
-            </div>
-        </div>
+</head>
 
+<body>
+
+    
+    <!--NAvbar-->
+    <nav class="navbar">
+      <span class="navbar-toggle" id="js-navbar-toggle">
+              <i class="material-icons">menu</Menu></i>
+          </span>
         
-        <!--hero-->
-        <div style="height: 605px; width: 1366px; margin: auto; position: relative;" >
-            <img src="pexels_helena_lopes_933964.png" alt="" class="hero">
-            <div style="width: 1366px;height: 605px;background: hsla(0, 0%, 100%, 0.36); position: absolute; z-index: 1;">
-                <div class="hero-text" >SO YOU'RE<br>A COFFEE PERSON<br>TOO? </div>
-            </div>
-        </div>
+      <a href="#" class="logo"><img src="logo3.svg" alt="" style="height: 2em; width:7em;"/>
+      </a>
+      <ul class="main-nav" id="js-menu">
+        <li><a href="#" class="nav-links">Home</a></li>
+        <li><a href="#" class="nav-links">Locations</a></li>
+        <li><a href="#" class="nav-links">Shop</a></li>        
+        <li><a href="#" class="nav-links">About Us</a></li>
+        <li><a href="#" class="nav-links">Contact Us</a></li>
+        <li><a href="#" class="nav-links">Cart</a></li>
+        <li><a href="#" class="nav-links">Login</a></li>
+    </ul>
+    </nav>
+    <!--Hero-->
+    <div>
+        <div class="hero-box">
+            <div class="hero-overlay"><p>So...<br>You're a coffee<br>person too?</p></div>
 
-        <!--word from us-->
-        <div style="height: 605px; width: 1366px; margin: auto; position: relative; margin-top: 20px;" >
-            <img src="pexels_viktoria_alipatova_2074.png" alt="" class="wordsbox">
-            <div style="width: 683px;height: 605px;background: hsla(0, 0%, 100%, 0.85); position: absolute; z-index: 1;right: 0; ;">
-                <p style="left: 0;right: 0;text-align: center; margin-top: 157px;position: absolute;font-family: 'Open Sans';
-                font-weight: normal;
-                font-size: 24px;
-                color: #6d3e0b;
-                ">Some words from us</p>
-                <p style="width:420px;height: 155px; left: 0;right: 0;position: absolute;margin: auto;margin-top: 210px;margin-bottom: 240px; font-family: Roboto;font-weight: normal;font-size: 16px;color: #bb6f1c;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
-            </div>
-        </div>
 
-        <!--cards-->
-        <div class="cards">
-            <div class="card-item">
-                  <img src="pexels-cottonbro-4829069.jpg" alt="" class="image">
-                  <div style="width: 295px;height: 280px;position: absolute;z-index: 2;background-color: hsla(31, 63%, 75%, 0.45);">
-                    <div class="overlay">
-                        <div class="text">SHOP</div>
-                      </div>
-                </div>   
-            </div>
-            <div class="card-item">
-                <img src="pexels-skitterphoto-675960.jpg" alt="" class="image">
-                <div style="width: 295px;height: 280px;position: absolute;z-index: 2;background-color: hsla(31, 63%, 75%, 0.45);">
-                <div class="overlay">
-                    <div class="text">EVENTS</div>
-                  </div>
-                </div>  
-            </div>
-            <div class="card-item"> 
-                <img src="pexels-daria-shevtsova-880478.jpg" alt="" class="image">
-                <div style="width: 295px;height: 280px;position: absolute;z-index: 2;background-color: hsla(31, 63%, 75%, 0.45);">
-                <div class="overlay">
-                    <div class="text">RECIPES</div>
-                  </div>
-                </div>  
-            </div>
-            <div class="card-item">
-                <img src="pexels-andrew-neel-1967535.jpg" alt="" class="image">
-                <div style="width: 295px;height: 280px;position: absolute;z-index: 2;background-color: hsla(31, 63%, 75%, 0.45);">
-                <div class="overlay">
-                    <div class="text">CONTACT US</div>
-                  </div>
-                </div>  
-            </div>
+            <img src="/pexels_helena_lopes_933964.png" alt="" class="hero-img">
+            <div class="button-position">
+            <a href="#" class="hero-button">COME MEET US</a>
         </div>
-
-        <!--New product in store-->
-        <div style="height: 605px; width: 1366px; margin: auto; position: relative; margin-top: 20px; background-color: #b66f36;" >
-            <div style="height: 200px;width: 200px;border-radius: 50%; background-color: white;margin-left: 450px;position: absolute;margin-top:50px;"></div>
-            <div style="width: 500px; height: 500px; border-radius: 50%;position: absolute; top:0; bottom:0;; margin:auto; margin-left:50px;background-color: white;" class="fill">
-            <img src="coffee_bag.png" alt="" class=""></div>
-            <div>
-                <p style="width:282px; height:33px; position: absolute;margin-top:257px;font-family: 'Open Sans';
-                font-weight: normal;
-                font-size: 24px;
-                color: white;margin-left: 682px;
-                ">NEW PRODUCT IN STORE</p>
-                <p style="width:581px;height: 47px; left: 0;right: 0;position: absolute;margin: auto;margin-top:310px;margin-bottom: 240px; font-family: Roboto;font-weight: normal;font-size: 16px;color:white;margin-right: 104px;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
-            </div>
-            <button style="float: right;width: 150PX; height: 50px; font-size: 20px; border-radius: 4px; border: 0px;margin-right: 100px; margin-top: 400px;">SHOP NOW</button>
         </div>
-
-        <div style="height: 605px; width: 1366px; margin: auto; position: relative; margin-top: 20px;" >
-            <img src="pexels-jaymantri-2755.jpg" alt="" class="wordsbox">
-            <div style="width: 683px;height: 605px;background: hsla(0, 0%, 100%, 0.85); position: absolute; z-index: 1;left: 0; ;">
-                <p style="left: 0;right: 0;text-align: center; margin-top: 107px;position: absolute;font-family: 'Open Sans';
-                font-weight: normal;
-                font-size: 24px;
-                color: #6d3e0b;
-                ">About Us</p>
-                <p style="width:420px;height: 155px; left: 0;right: 0;position: absolute;margin: auto;margin-top: 150px;margin-bottom: 240px; font-family: Roboto;font-weight: normal;font-size: 16px;color: #bb6f1c;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
-                <p style="width:420px;height: 155px; left: 0;right: 0;position: absolute;margin: auto;margin-top: 350px;margin-bottom: 240px; font-family: Roboto;font-weight: normal;font-size: 16px;color: #bb6f1c;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
-            </div>
-        </div>
-
     </div>
-    </body>
+    <!--Words-->
+    <div>
+        <div class="words-box">
+            <img src="/pexels_viktoria_alipatova_2074.png" alt="" class="hero-img">
+            <div class="words-overlay">
+                <div class="words">
+                    <h3 style="color: #6d3e0b;padding: 1vh;"> Some words from us</h3>
+                    <p style="font-weight: lighter;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Cards-->
+    <div style="padding:1em ;">
+    <div class="cards">
+        <div class="card-item">
+              <img src="pexels-cottonbro-4829069.jpg" alt="" class="image">
+              <div class="card-overlay">
+                <div class="text">SHOP</div>
+                <div class="overlay">
+                    <div class="text">SHOP</div>
+                  </div>
+            </div>   
+        </div>
+        <div class="card-item">
+            <img src="pexels-skitterphoto-675960.jpg" alt="" class="image">
+            <div class="card-overlay">            
+                <div class="text">EVENTS</div>
+                <div class="overlay">
+                <div class="text">EVENTS</div>
+              </div>
+            </div>  
+        </div>
+        <div class="card-item"> 
+            <img src="pexels-daria-shevtsova-880478.jpg" alt="" class="image">
+            <div class="card-overlay">
+                <div class="text">RECIPES</div>            
+                <div class="overlay">
+                <div class="text">RECIPES</div>
+              </div>
+            </div>  
+        </div>
+        <div class="card-item">
+            <img src="pexels-andrew-neel-1967535.jpg" alt="" class="image">
+<div class="card-overlay">          
+    <div class="text">CONTACT US</div>  
+    <div class="overlay">
+                <div class="text">CONTACT US</div>
+              </div>
+            </div>  
+        </div>
+    </div>
+    </div>
+    <!--Product--->
+    <div class="product-box">
+        <div class="ellipse-1"></div>
+    
+        <div class="product-text">
+            <h3 style="padding: 1vh;">New product in store</h3>
+            
+            <p style="font-weight: lighter;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
+        </div>
+        <div class="button-position">
+        <a href="#" class="product-button">SHOP NOW</a>
+         </div>
+    </div>
 
+    <!--About Us-->
+    <div class="about-box">
+        <div class="about-image-box">
+            <img src="/pexels-jaymantri-2755.jpg" class="about-image">        
+        </div>
+        <div class="button-position">
+            <a href="#" class="product-button">ABOUT US</a>
+        </div>    
+        <div class="about-overlay">
+            <p class="about-heading" >About Us</p>
+            <p class="about-text"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+                sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                 Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, 
+                consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+                <p class="about-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+                    sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                     Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, 
+                    consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+        </div>
+            
+    </div>
+    
+    <!--footer-->
+    <div class="footer-box">
+        <div class="button-position">
+            <img src="/pinterest.svg" alt="" class="icon">
+            <img src="instagram.svg" alt="" class="icon">
+            <img src="facebook.svg" alt="" class="icon">
+            
+        </div>
+        <div class="button-position">
+            <img src="logo2.svg" alt="" style="height: 10vh;">
+        </div>
+        <ul style="list-style-type: none;">
+            
+            <li><a href="#" class="foot-links">Home</a></li>
+            <li><a href="#" class="foot-links">Locations</a></li>
+            <li><a href="#" class="foot-links">Shop</a></li>        
+            <li><a href="#" class="foot-links">About Us</a></li>
+            <li><a href="#" class="foot-links">Contact Us</a></li>
+            <li><a href="#" class="foot-links">Cart</a></li>
+            <li><a href="#" class="foot-links">Login</a></li></li>
+        </ul>
+        <p style="padding: 2.5em; display: flex; justify-content: center;">
+            Craft Espresso 2020 copyright
+        </p>
+    </div>
 
- </html>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="main.js"></script>
+  </body>
+
+</html>
