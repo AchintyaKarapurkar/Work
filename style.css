@@ -125,8 +125,17 @@ font-size: 18px;
    position: relative;
 }
 
+.hero-button{
+  transition: 0.3s;
+}
 
+.about-button{
+  transition: 0.3s;
+}
 
+.product-button{
+  transition: 0.3s;
+}
 
 
 
@@ -1036,7 +1045,6 @@ color: white;
   padding: 0.8em;
   font-size: 1.7em;
   color: white;
-  border: 0.15em solid white;
   border-radius: 0.2em;
  top: 52%;
  left: 50%;
